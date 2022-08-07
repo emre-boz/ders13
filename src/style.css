@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header , footer , section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+    color: white;
+    
+}
+
+header {
+    background-color: rgb(2, 89, 2);
+
+}
+
+section {
+    background-color: rgb(3, 3, 101);
+    min-height: calc(100vh - 200px);
+}
+
+footer {
+    background-color: rgb(103, 103, 0);
+    height: 100px;
+}
