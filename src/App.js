@@ -1,6 +1,11 @@
+import Iletisim from "./Iletisim";
+
 function App() {
-  return (
-    <p>Merhaba!</p>
+  return (<>
+      <p>Merhaba!</p>
+    <Iletisim/>
+  </>
+
   );
 }
 
