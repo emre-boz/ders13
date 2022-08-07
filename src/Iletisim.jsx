@@ -64,7 +64,11 @@ function Iletisim () {
                     {formalanlari?.site?.length}
                 </div>
 
-                
+                <div>
+                    <p>Mesajınız: </p>
+                    <textarea name="mesaj" onChange={topluGuncelleme} type="text" />
+                    {formalanlari?.mesaj?.length}
+                </div>
 
                 <button type="submit">Gönder</button>
             </form>
